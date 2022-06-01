@@ -1,12 +1,12 @@
-//faire un calcul simple : créer 2 variables et faire les opérations courante +,-,*,/
+//faire un calcul simple : créer 2 variables et faire les opérations courante +,-,*,/ --> OK
 
-//afficher "Bonjour Prenom + nom :" à afficher dans la console de débogage
+//afficher "Bonjour Prenom + nom :" à afficher dans la console de débogage  --> OK
 
-//Affiche une boite de dialogue: afficher 'Hello world' dans une boite de dialogue.
+//Affiche une boite de dialogue: afficher 'Hello world' dans une boite de dialogue. -->OK
 alert
 
-// Message de confirmation: afficher  dans iune boite de dialogue "souhaitez-vous confirmer?" oui --> 'merci' / non 'Annulation'
-confirm
+// Message de confirmation: afficher dans une boite de dialogue "souhaitez-vous confirmer?" oui --> 'merci' / non 'Annulation'
+confirm --> Erreur dans le code car oubli de () après if :-/
 
 //Demander des renseignements:
 Prompt
