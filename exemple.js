@@ -68,7 +68,6 @@ console.log(tempspreparationChoco + tempspreparationFraisier); // affiche temps 
 // crieDeGuerre();
 // console.log(crie);
 
-//Variables Locales:
 // function crieDeGuerre() {
 //     let crie = " Toujours plus fort ... en douceur ! "; //locale car erreur si on ecrit "console.log(crie)"après la fonction.
 //     console.log(crie);
@@ -95,11 +94,11 @@ console.log(tempspreparationChoco + tempspreparationFraisier); // affiche temps 
 // }
 // direBonjour() //On appelle la fonction avec son nom et les parenthèses (Très importantes les parenthèses)
 
-//Demander des renseignements
+//Demander des renseignements:
 // const age = prompt('Entrez votre age : ');
 // alert("Bonjour, vous avez " + age + " ans");
 
-// Message de confirmation
+// Message de confirmation:
 // if(confirm('Souhaitez vous confirmer')) {
     //oui
 //     alert('Merci');
@@ -108,13 +107,15 @@ console.log(tempspreparationChoco + tempspreparationFraisier); // affiche temps 
 //     alert('Annulation');
 // }
 
-//Affiche une boite de dialogue
+//Affiche une boite de dialogue:
 //alert('Hello World!');
 
+//afficher "Bonjour Prenom + nom :"
 // let prenom      = "JPierre";
 // let nom         = "Fleury";
 // console.log("Bonjour " + prenom + ' ' + nom +' !')
 
+//faire un calcul simple :
 // let nombre1      = 8, nombre2 = 4, result;
 // result           = (nombre1 * nombre2) + 8;
 // result +=5;

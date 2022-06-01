@@ -1,0 +1,24 @@
+//faire un calcul simple : créer 2 variables et faire les opérations courante +,-,*,/
+
+//afficher "Bonjour Prenom + nom :" à afficher dans la console de débogage
+
+//Affiche une boite de dialogue: afficher 'Hello world' dans une boite de dialogue.
+alert
+
+// Message de confirmation: afficher  dans iune boite de dialogue "souhaitez-vous confirmer?" oui --> 'merci' / non 'Annulation'
+confirm
+
+//Demander des renseignements:
+Prompt
+
+//Créer une fonction: créer une fonction qui affiche dans une boite de dialogue 'Bonjour à vous'
+
+//Créer une fonction qui affiche le message Bonjour Prénom dans un popup.
+
+//Ajouter des paramètres à une fonction : faire une addition avec function. affichage dans la console de Débogage.
+
+//Variables Locales: faire une fonction avec une variable locale
+
+//Variables Globales: faire une fonction avec une variable Globale
+
+//Fonction qui retourne qqch: Créer une fonction qui fait une addition pui une division et retourne le résultat dela multiplication des deux opérations. 
