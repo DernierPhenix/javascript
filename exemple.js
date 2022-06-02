@@ -1,14 +1,39 @@
+//Fonction Anonyme:
+(function () {
+  console.log("Je suis une fonciton anonyme");
+})();
+
+/*Créer une fonction demander age()
+et qui va se commenter dans une fenetre de renseignement de l'age
+et qui affichera dans un popup " vous avec X ans"
+*/
+
+// function prevoirAge() {
+//   let age = prompt("Quel age avez vous ?");
+//   // age = parseInt(age); //convertit en nombre ENTIER - Attention 35.5 => 35
+//   // age = parseFloat(age); //convertit un nombre  à virgule compris en chaine de caracteres en nombre DECIMAL
+
+//   age = Number(age); //convertit en nombre ENTIER
+//   return age;
+// }
+
+// alert("Vous allez bientôt avoir " + (prevoirAge() + 1) + " ans");
+
+/*Transformer un nombre en chaine de caracteres
+ex: nombre = 45;
+1ere methode: nombreEnString = nombre + "";
+2eme methode: nombreEnString = nombre.toString(); RECOMMANDÉE*/
 
 //Exercice paramètres par défaut
 //let preparation = 15, cuisson = 25;
 
 function cuisiner(nbrGateau, tempspreparation = 15, tempsCuisson = 20) {
-    let resultat = nbrGateau * (tempspreparation + tempsCuisson);
-    return resultat;
+  let resultat = nbrGateau * (tempspreparation + tempsCuisson);
+  return resultat;
 }
-let tempspreparationChoco       = cuisiner(3); // appel la fonction pour Temps préparation  des 4 gateaux choco
-let tempspreparationFraisier     = cuisiner(2, 20); // appel la fonction cuisiner pour 1 fraisier avec tempspreparation de 20min
-console.log(tempspreparationChoco);  // affiche le temps de préparation gateau choco
+let tempspreparationChoco = cuisiner(3); // appel la fonction pour Temps préparation  des 4 gateaux choco
+let tempspreparationFraisier = cuisiner(2, 20); // appel la fonction cuisiner pour 1 fraisier avec tempspreparation de 20min
+console.log(tempspreparationChoco); // affiche le temps de préparation gateau choco
 console.log(tempspreparationFraisier); // affiche le temps de préparation gateau fraise
 console.log(tempspreparationChoco + tempspreparationFraisier); // affiche temps pour les 5 gateaux
 
@@ -17,7 +42,7 @@ console.log(tempspreparationChoco + tempspreparationFraisier); // affiche temps 
 // function addition(nombreA, nombreB = 10) {
 //     let resultat = nombreA + nombreB;
 //     return resultat;
-    
+
 // }
 
 // console.log(addition(nombreUn, nombreDeux));
@@ -27,13 +52,13 @@ console.log(tempspreparationChoco + tempspreparationFraisier); // affiche temps 
 // function addition(nombreA, nombreB) {
 //     let resultat = nombreA + nombreB;
 //     return resultat;
-    
+
 // }
 
 // function division(nombreA, nombreB) {
 //     let resultat = nombreB / nombreA;
 //     return resultat;
-    
+
 // }
 // let resultAddition = addition(nombreUn, nombreDeux);
 // let resultDivision = division(nombreUn, nombreDeux);
@@ -44,7 +69,7 @@ console.log(tempspreparationChoco + tempspreparationFraisier); // affiche temps 
 // let nombre1 = 4, nombre2 = 8;
 
 // function addition(nombreA, nombreB) {
-//     let resultat = nombreA + nombreB;  
+//     let resultat = nombreA + nombreB;
 //     // console.log(resultat); affiche le resultat mais ne "retourne pas"le résultat.
 //     return resultat; // return va "stocker" la valeur de resultat et le programme s'arrête juste après.
 // };
@@ -62,7 +87,7 @@ console.log(tempspreparationChoco + tempspreparationFraisier); // affiche temps 
 //Variables Globales:
 // let crie; //Globale qui est definit à la racine du projet(ici en dehors de la fonction).
 // function crieDeGuerre() {
-//     crie = " Toujours plus fort ... en douceur ! "; 
+//     crie = " Toujours plus fort ... en douceur ! ";
 //     console.log(crie);
 // }
 // crieDeGuerre();
@@ -100,10 +125,10 @@ console.log(tempspreparationChoco + tempspreparationFraisier); // affiche temps 
 
 // Message de confirmation:
 // if(confirm('Souhaitez vous confirmer')) {
-    //oui
+//oui
 //     alert('Merci');
 // }else{
-     //Non
+//Non
 //     alert('Annulation');
 // }
 
