@@ -1,3 +1,4 @@
+exercices
 let poids = prompt("Quel est votre poids en kg ?");
 let taille = prompt("Quel est votre taille en cm ?");
 let tailleDeCmEnM = taille * 0.01;
@@ -48,3 +49,8 @@ if (imc < 18.5) {
 //   );
 // }
 // abracadabra();
+
+let age = prompt("Entrer votre âge : ");
+alert("Bonjour, vous avez " + age + " ans.");
+
+
